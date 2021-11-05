@@ -5,7 +5,7 @@ import logging as log
 app = Flask(__name__)
 
 # load the learner
-learn = load_learner(path='./models', file='exported-model-final.pkl')
+learn = load_learner(path='./models', file='planetas.pkl')
 classes = learn.data.classes
 
 
